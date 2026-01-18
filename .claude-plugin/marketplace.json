@@ -1,0 +1,15 @@
+{
+  "name": "anatoliis-plugins",
+  "metadata": {
+    "description": "A collection of productivity plugins for Jira and Confluence."
+  },
+  "owner": {
+    "name": "Anatolii"
+  },
+  "plugins": [
+    {
+      "name": "jira-manager",
+      "source": "./jira-manager"
+    }
+  ]
+}
