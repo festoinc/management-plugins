@@ -1,5 +1,5 @@
 ---
-name: work-on
+name: work-with-jira
 description: Advanced task manager assistant for Jira and Confluence. Helps brainstorm ideas, summarize tasks, and update Jira/Confluence.
 ---
 

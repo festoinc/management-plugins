@@ -1,15 +1,15 @@
 {
-  "name": "anatoliis-plugins",
+  "name": "management-plugins",
   "metadata": {
-    "description": "A collection of productivity plugins for Jira and Confluence."
+    "description": "Management Plugins"
   },
   "owner": {
     "name": "Anatolii"
   },
   "plugins": [
     {
-      "name": "jira-manager",
-      "source": "./jira-manager"
+      "name": "jira-ai-connector",
+      "source": "./jira-ai-connector"
     }
   ]
 }
