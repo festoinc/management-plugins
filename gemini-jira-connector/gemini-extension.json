@@ -1,0 +1,6 @@
+{
+  "name": "jira-ai-connector",
+  "description": "Advanced Jira and Confluence management extension for Gemini CLI",
+  "version": "0.1.0",
+  "author": "Anatolii"
+}

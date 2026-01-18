@@ -14,23 +14,27 @@ An advanced assistant for Jira. It helps you manage tasks, brainstorm ideas, and
 
 ## Installation
 
-### Step 1: Add the Marketplace
+### For Claude Code
+#### Step 1: Add the Marketplace
 Add this marketplace to your Claude instance:
-
 ```bash
 claude plugin marketplace add festoinc/management-plugins
 ```
 
-### Step 2: Install the Plugin
-Install the Jira AI Connector:
-
+#### Step 2: Install the Plugin
 ```bash
 claude plugin install jira-ai-connector@management-plugins
 ```
 
-### Step 3: Prerequisites
-The Jira AI Connector requires the `jira-ai` CLI tool. If you don't have it, install and configure it:
+### For Gemini CLI
+#### Step 1: Add the Extension
+Add this extension to your Gemini CLI:
+```bash
+gemini extension add https://github.com/festoinc/management-plugins --path gemini-jira-connector
+```
 
+## Prerequisites
+Both plugins require the `jira-ai` CLI tool:
 ```bash
 npm install -g jira-ai
 jira-ai auth login
@@ -49,11 +53,3 @@ Once installed, you can trigger the Jira assistant using the slash command:
 Or simply ask Claude:
 *"Use the jira-manager plugin to summarize task PROJ-123"*
 
----
-
-## Development
-
-To validate the marketplace locally:
-```bash
-claude plugin validate .
-```
