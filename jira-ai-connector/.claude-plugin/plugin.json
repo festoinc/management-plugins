@@ -1,8 +1,8 @@
 {
   "name": "jira-ai-connector",
-  "description": "Advanced task manager assistant for Jira and Confluence",
-  "version": "0.1.0",
+  "description": "AI friendly task manager assistant for Jira",
+  "version": "0.5.0",
   "author": {
-    "name": "Anatolii"
+    "name": "Anatolii Fesiuk"
   }
 }
