@@ -30,7 +30,7 @@ claude plugin install jira-ai-connector@management-plugins
 #### Step 1: Add the Extension
 Add this extension to your Gemini CLI:
 ```bash
-gemini extension add https://github.com/festoinc/management-plugins --path gemini-jira-connector
+gemini extension install https://github.com/festoinc/management-plugins
 ```
 
 ## Prerequisites
